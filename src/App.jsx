@@ -4,7 +4,9 @@ function App() {
   return (
     <>
       <div className="grid grid-col-12 text-center bg-slate-300 px-20">
-        <h1>React Redux</h1>
+        <div className="shadow py-10">
+          <h1 className="text-5xl font-extrabold">React Redux</h1>
+        </div>
       </div>
     </>
   );
