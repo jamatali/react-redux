@@ -5,14 +5,15 @@ function AddTask() {
     <div className="col-span-12 bg-green-400">
       <div className="grid border bg-blue-400 justify-center">
         <div className="col-span-6 border bg-red-400">
-          <form className="grid grid-cols-12 bg-yellow-400 border">
-            <label className="col-span-2">Blog Title</label>
+          <form className="border">
+            <label className="">Blog Title</label>
             <input
-              className="col-span-10 bg-slate-200"
+              className=""
               type="text"
               placeholder="Blog Title"
               name="title"
             />
+            <br />
             <label className="col-span-2">Author Name</label>
             <input
               className="col-span-10 bg-slate-200"
