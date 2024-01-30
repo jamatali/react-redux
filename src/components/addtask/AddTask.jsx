@@ -2,6 +2,7 @@ import React from "react";
 
 function AddTask() {
   return (
+    // This component will take input from user in text form
     <div className="col-span-12 bg-green-400">
       <div className="grid border bg-blue-400 justify-center">
         <div className="col-span-6 border bg-red-400">
